@@ -1,0 +1,18 @@
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Cairo');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Alexandria');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'New York');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'London');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Dubai');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Tokyo');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Moscow');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Berlin');
+INSERT INTO `office` (`OFFICE_ID`, `CITY`) VALUES (NULL, 'Paris');
+
+INSERT INTO `customer` (`SSN`, `FNAME`, `LNAME`, `EMAIL`, `PASSWORD`, `LICENSE_NO`, `PHONE_NO`, `COUNTRY`, `CITY`, `ADDRESS`) VALUES ('37853648301234', 'Yahia', 'Zaky', 'yahia@gmail.com', 'yahiayahia', '123123123', '16273849283', 'Egypt', 'Cairo', 'dijasod asdoiansd');
+INSERT INTO `customer` (`SSN`, `FNAME`, `LNAME`, `EMAIL`, `PASSWORD`, `LICENSE_NO`, `PHONE_NO`, `COUNTRY`, `CITY`, `ADDRESS`) VALUES ('27382937364596', 'Vladimir', 'Kuzlov', 'vladidaddy@gmail.com', 'morevodka' ,'27485968516374',  '73516379200','Russia', 'Moscow', '21st bear streat');
+INSERT INTO `customer` (`SSN`, `FNAME`, `LNAME`, `EMAIL`, `PASSWORD`, `LICENSE_NO`, `PHONE_NO`, `COUNTRY`, `CITY`, `ADDRESS`) VALUES ('47296957468263', 'Peter', 'Parker', 'spidy@gmail.com', 'webmaster', '92634968511627', '50468799519', 'United States', 'New York', '20 Ingram St. in Queens');
+INSERT INTO `customer` (`SSN`, `FNAME`, `LNAME`, `EMAIL`, `PASSWORD`, `LICENSE_NO`, `PHONE_NO`, `COUNTRY`, `CITY`, `ADDRESS`) VALUES ('81426957436496', 'Hideo', 'Kojima', 'kojima@konami.com', 'venom_snake', '17283917211627', '70312345678', 'Japan', 'Tokyo', 'Setagaya City');
+
+INSERT INTO `car` (`PLATE`, `MOTOR_ID`, `MODEL`, `YEAR`, `CLASS`, `BRAND`, `COLOR`, `STATUS`, `IMAGE`, `PRICE_DAY`, `OFFICE_ID`, `RESERVED`) VALUES ('43241', 'sfd3sd', 'Grand Marquis', '2010', 'Premium Sedan', 'Mercury', 'red', 'active', './images/2010mercurymybeloved.png', '100', '1', '0');
+INSERT INTO `car` (`PLATE`, `MOTOR_ID`, `MODEL`, `YEAR`, `CLASS`, `BRAND`, `COLOR`, `STATUS`, `IMAGE`, `PRICE_DAY`, `OFFICE_ID`, `RESERVED`) VALUES ('35resdf', 'sdawe2sda', 'Edge Sport', '2009', 'SUV', 'Ford', 'blue', 'active', './images/FordEdgeSportNY.png', '90', '1', '0');
+INSERT INTO `car` (`PLATE`, `MOTOR_ID`, `MODEL`, `YEAR`, `CLASS`, `BRAND`, `COLOR`, `STATUS`, `IMAGE`, `PRICE_DAY`, `OFFICE_ID`, `RESERVED`) VALUES ('342022k', 'dsf2022id', 'Qashqai', '2022', 'SUV', 'NISSAN', 'white', 'active', './images/2022nissanqashqai.png', '200', '1', '0');
